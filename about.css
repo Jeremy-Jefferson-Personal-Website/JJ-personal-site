@@ -1,0 +1,41 @@
+/*styles for main section of about page*/
+main {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    margin-top: auto;
+    color: rgb(255, 255, 255);
+  }
+
+  h1 {
+    font-weight: 300;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px rgb(16, 13, 35);
+  }
+  
+  h2 {
+    font-weight: 300;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px rgb(16, 13, 35);
+  }
+
+  
+  section > img {
+    height: 105px;
+  }
+  
+  section:nth-of-type(odd) > img {
+    float: left;
+    margin: 0 24px 24px 0;
+  }
+  
+  
+  section:nth-of-type(even) > img {
+    float: right;
+    margin: 0 0 24px 24px;
+  }
+  
+  section {
+    border-top: 4px solid white;
+  }
+  
